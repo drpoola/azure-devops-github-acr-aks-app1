@@ -53,7 +53,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'drpoolaazuredevopsgithubacraksapp1-9863.default'
+    environment: 'myenvironemnt'
     strategy:
       runOnce:
         deploy:
